@@ -311,6 +311,9 @@ MLibC_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 MLibC_SOURCE_DIR:STATIC=/home/filnow/fun/MLibC
 
+//Path to a library.
+M_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
+
 //Name of the computer/site where compile is being run
 SITE:STRING=linux
 

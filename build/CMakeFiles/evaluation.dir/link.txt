@@ -1,0 +1,1 @@
+/usr/bin/gcc-12 -g -rdynamic CMakeFiles/evaluation.dir/evaluation.c.o -o evaluation 

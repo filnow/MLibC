@@ -26,7 +26,8 @@
 /home/filnow/fun/MLibC/build/CMakeFiles/ContinuousCoverage.dir
 /home/filnow/fun/MLibC/build/CMakeFiles/ContinuousMemCheck.dir
 /home/filnow/fun/MLibC/build/CMakeFiles/ContinuousSubmit.dir
-/home/filnow/fun/MLibC/build/CMakeFiles/MLibC.dir
+/home/filnow/fun/MLibC/build/CMakeFiles/main.dir
+/home/filnow/fun/MLibC/build/CMakeFiles/eval.dir
 /home/filnow/fun/MLibC/build/CMakeFiles/package.dir
 /home/filnow/fun/MLibC/build/CMakeFiles/package_source.dir
 /home/filnow/fun/MLibC/build/CMakeFiles/test.dir

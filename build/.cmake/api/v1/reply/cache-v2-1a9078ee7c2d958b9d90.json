@@ -1694,6 +1694,18 @@
 			"value" : "/home/filnow/fun/MLibC"
 		},
 		{
+			"name" : "M_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libm.so"
+		},
+		{
 			"name" : "P4COMMAND",
 			"properties" : 
 			[
