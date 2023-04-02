@@ -8,5 +8,10 @@
   "directory": "/home/filnow/fun/MLibC/build",
   "command": "/usr/bin/gcc-12   -g -o CMakeFiles/eval.dir/eval.c.o -c /home/filnow/fun/MLibC/eval.c",
   "file": "/home/filnow/fun/MLibC/eval.c"
+},
+{
+  "directory": "/home/filnow/fun/MLibC/build",
+  "command": "/usr/bin/gcc-12   -g -o CMakeFiles/linearR.dir/linearR.c.o -c /home/filnow/fun/MLibC/linearR.c",
+  "file": "/home/filnow/fun/MLibC/linearR.c"
 }
 ]

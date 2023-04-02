@@ -536,6 +536,19 @@ eval/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/build
 .PHONY : eval/fast
 
+#=============================================================================
+# Target rules for targets named linearR
+
+# Build rule for target.
+linearR: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linearR
+.PHONY : linearR
+
+# fast build rule for target.
+linearR/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linearR.dir/build.make CMakeFiles/linearR.dir/build
+.PHONY : linearR/fast
+
 eval.o: eval.c.o
 .PHONY : eval.o
 
@@ -559,6 +572,30 @@ eval.s: eval.c.s
 eval.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval.dir/build.make CMakeFiles/eval.dir/eval.c.s
 .PHONY : eval.c.s
+
+linearR.o: linearR.c.o
+.PHONY : linearR.o
+
+# target to build an object file
+linearR.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linearR.dir/build.make CMakeFiles/linearR.dir/linearR.c.o
+.PHONY : linearR.c.o
+
+linearR.i: linearR.c.i
+.PHONY : linearR.i
+
+# target to preprocess a source file
+linearR.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linearR.dir/build.make CMakeFiles/linearR.dir/linearR.c.i
+.PHONY : linearR.c.i
+
+linearR.s: linearR.c.s
+.PHONY : linearR.s
+
+# target to generate assembly for a file
+linearR.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linearR.dir/build.make CMakeFiles/linearR.dir/linearR.c.s
+.PHONY : linearR.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -624,10 +661,14 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... eval"
+	@echo "... linearR"
 	@echo "... main"
 	@echo "... eval.o"
 	@echo "... eval.i"
 	@echo "... eval.s"
+	@echo "... linearR.o"
+	@echo "... linearR.i"
+	@echo "... linearR.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

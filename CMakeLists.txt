@@ -6,8 +6,10 @@ enable_testing()
 
 add_executable(main main.c)
 add_executable(eval eval.c)
+add_executable(linearR linearR.c)
 
-
+target_link_libraries(eval m)
+target_link_libraries(linearR m)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

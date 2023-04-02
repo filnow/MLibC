@@ -28,21 +28,3 @@ int MRE(double r_pred[], double r_real[], int n) {
     }
     return sum / n;
 }
-
-int main() {
-
-    double r_pred[] = {1.0, 2.0, 3.0, 4.0, 5.0};
-    double r_real[] = {5.0, 3.0, 4.0, 1.0, 2.0};
-    
-    int n = sizeof(r_pred) / sizeof(r_pred[0]);
-    
-    double mse = RMSE(r_pred, r_real, n);
-    double mae = MAE(r_pred, r_real, n);
-    double mre = MRE(r_pred, r_real, n);
-    
-    printf("MAE: %lf\n", mae);
-    printf("RMSE: %lf\n", mse);
-    printf("MRE: %lf\n", mre);
-    
-    return 0;
-}
